@@ -37,7 +37,7 @@ def bumba_speak(audio_string):
 
 def respond(voice_data):
     if 'what is your name' in voice_data:
-       bumba alexis_speak('My name is Bumba')
+       bumba_speak('My name is Bumba')
     if 'what is the time' in voice_data:
         bumba_speak(ctime())
     if 'can you go online' in voice_data:
